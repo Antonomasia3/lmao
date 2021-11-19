@@ -25,7 +25,7 @@ That's it. If you don't need those, I don't recommend using this. Also, here's w
 >
 > Maybe a future version of Classic Shell will have this feature if I find solutions to all the problems.
 
-With those things considered, here's what you should know: shell components register themselves as COM objects in the system. ExplorerPatcher's CLSID is `{D17F1E1A-5919-4427-8F89-A1A8503CA3EB}`. This feature creates and deletes the following registry entries:
+With those things considered, here's what you should know: shell components register themselves as COM objects in the system. ExplorerPatcher's CLSID (a CLSID is an ID that does not need a central authority to guarantee its uniqueness property) is `{D17F1E1A-5919-4427-8F89-A1A8503CA3EB}`. This feature creates and deletes the following registry entries:
 
 * `HKLM\SOFTWARE\Classes\CLSID\{D17F1E1A-5919-4427-8F89-A1A8503CA3EB}` - COM component in-process server registration for 64-bit processes
 * `HKLM\SOFTWARE\WOW6432Node\Classes\CLSID\{D17F1E1A-5919-4427-8F89-A1A8503CA3EB}` - COM component in-process server registration for 32-bit processes
