@@ -13,7 +13,7 @@ The following prerequisites are necessary in order to compile this project:
 
   Download either of those [here](http://go.microsoft.com/fwlink/p/?LinkId=840931). The guide assumes you have installed either Visual Studio 2019 or 2022, either Build Tools for Visual Studio 2019 or 2022.
 
-* A recent version of the [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/) - for development, version 10.0.19041.0 is used, available [here](https://go.microsoft.com/fwlink/p/?linkid=2120843) (this may also be offered as an option when installing Visual Studio). The automated infrastructure usually uses the latest SDk available, currently 10.0.22000.
+* A recent version of the [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/) - for development, version 10.0.19041.0 is used, available [here](https://go.microsoft.com/fwlink/p/?linkid=2120843) (this may also be offered as an option when installing Visual Studio). The automated infrastructure usually uses the latest SDk available, currently 10.0.22000, available [here](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
 
 * [CMake](https://cmake.org/) - for easier usage, make sure to have it added to PATH during installation
 
