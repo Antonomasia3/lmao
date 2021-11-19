@@ -6,7 +6,7 @@ The default installation of ExplorerPatcher works great, enabling lots of custom
 
 So, for certain tweaks enabled by ExplorerPatcher to have effect in all applications, you can have it get injected in all applications. There are multiple ways to do this, and what ExplorerPatcher employs is registering itself as a shell extension which will have it get loaded in every process that invokes an Open/Save file dialog.
 
-*!!! IMPORTANT !!! Injecting in all process is no mean feat: that means most processes running on you system have this piece of code running into it. While I strive to provide clean and bug free releases, mistakes or problems may appear from time to time, and this has the potential of making more troublesome than usual to recover the system if something goes wrong, so beware before deciding towards using this.*
+**!!! IMPORTANT !!! Injecting in all process is no mean feat: that means most processes running on you system have this piece of code running into it. While I strive to provide clean and bug free releases, mistakes or problems may appear from time to time, and this has the potential of making more troublesome than usual to recover the system if something goes wrong, so beware before deciding towards using this.**
 
 Currently, only a small subset of functionality is enabled by using ExplorerPatcher as a shall extension:
 * Disable immersive context menus in Open/Save file dialogs
@@ -15,7 +15,8 @@ Currently, only a small subset of functionality is enabled by using ExplorerPatc
 
 That's it. If you don't need those, I don't recommend using this. Also, here's what ClassicShell's developer had to say about this matter, basically in line with what I caution against here. From [here](http://www.classicshell.net/faq/#explorer_saveas):
 
-> *Can Classic Shell add Up button to the system SaveAs or Open dialogs?*
+> **Can Classic Shell add Up button to the system SaveAs or Open dialogs?**
+>
 > No. The SaveAs and Open dialogs are controlled by the application - Notepad, Word, Photoshop, etc. It is theoretically possible to do something about it, but there are many problems to do it correctly. Here's just a few:
 >
 >    Every application is unique. There is no way to ensure stable work for arbitrary applications. Often applications take steps to customize their dialogs and there is a great potential for conflict.
