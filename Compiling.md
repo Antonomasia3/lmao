@@ -63,7 +63,7 @@ Steps:
 
    The resulting libraries will be in the "build\Release" or "build\Debug" folder in the directory containing the solution file.
 
-4. To generate an `ep_setup.exe` file suitable for an uploading on an ExplorerPatcher update server (which means inserting the MD5 hash of `ExplorerPatcher.amd64.dll` in the setup program), after the build is completed, run this in the `build` folder:
+4. To generate an `ep_setup.exe` file suitable for uploading to an ExplorerPatcher update server (which means inserting the MD5 hash of `ExplorerPatcher.amd64.dll` in the setup program), after the build is completed, run this in the `build` folder:
 
    ```
    ep_setup_patch.exe
