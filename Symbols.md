@@ -63,7 +63,7 @@ Loaded symbols.
 Loaded symbols.
 ```
 
-* If ExplorerPatcher does not have built-in symbol information for the build you are running and it succeeds to gather symbol data, you will see output similar to this:
+* If ExplorerPatcher does not have built-in symbol information for the build you are running and it succeeds gathering symbol data, you will see output similar to this:
 
 ```
 Attempting to download symbol data; for now, the program may have limited functionality.
