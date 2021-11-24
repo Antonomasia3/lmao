@@ -54,17 +54,6 @@ The second method you can tell what state ExplorerPatcher is in is by watching t
 [Symbols] Identified known "StartDocked.dll" with hash b57bb94a48d2422de9a78c5fcba28f98.
 ```
 
-* If ExplorerPatcher does not have built-in symbol information for the build you are running and it failed to gather symbol data (due to various reasons, like symbols not being available from Microsoft, the computer not being connected to the Internet etc), you will see output similar to this:
-
-```
-[Symbols] Started "Download symbols" thread.
-[Symbols] Attempting to download symbols for unknown OS version 10.0.22000.348.
-[Symbols] Downloading to "C:\Users\root\AppData\Roaming\ExplorerPatcher\".
-[Symbols] Downloading symbols for "C:\Windows\system32\twinui.pcshell.dll"...
-[Symbols] Symbols for "C:\Windows\system32\twinui.pcshell.dll" are not available - unable to download.
-[Symbols] Please refer to "https://github.com/valinet/ExplorerPatcher/wiki/Symbols" for more information.
-```
-
 * If ExplorerPatcher does not have built-in symbol information for the build you are running and it succeeds to gather symbol data, you will see output similar to this:
 
 ```
@@ -77,6 +66,17 @@ The second method you can tell what state ExplorerPatcher is in is by watching t
 [Symbols] Reading symbols...
 [Symbols] Finished gathering symbol data.
 [Symbols] Finished "Download symbols" thread.
+```
+
+* If ExplorerPatcher does not have built-in symbol information for the build you are running and it failed to gather symbol data (due to various reasons, like symbols not being available from Microsoft, the computer not being connected to the Internet etc), you will see output similar to this:
+
+```
+[Symbols] Started "Download symbols" thread.
+[Symbols] Attempting to download symbols for unknown OS version 10.0.22000.348.
+[Symbols] Downloading to "C:\Users\root\AppData\Roaming\ExplorerPatcher\".
+[Symbols] Downloading symbols for "C:\Windows\system32\twinui.pcshell.dll"...
+[Symbols] Symbols for "C:\Windows\system32\twinui.pcshell.dll" are not available - unable to download.
+[Symbols] Please refer to "https://github.com/valinet/ExplorerPatcher/wiki/Symbols" for more information.
 ```
 
 ## Can you set a proxy for symbol downloading?
