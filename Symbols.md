@@ -45,6 +45,8 @@ If you run `22000.348.39.0` on a newer build, ExplorerPatcher will try to downlo
 
 If it fails, ExplorerPatcher will usually work without the functionality described above as requiring symbol data and no notification will be shown in this case. Telling if you're in this mode is easy: press `Win`+`X` for example. If nothing shows, you're likely in this mode.
 
+I usually try to update ExplorerPatcher with any necessary stuff as soon as a new stable build is pushed. Most of the times, manual intervention is not needed: bumping up the version info, or maybe hardcoding the data for this build is kind of optional, as, so long as symbols are available from Microsoft, the application always has the fallback mechanism of extracting the data from symbols available online. With Microsoft being a US-based company, symbol files and new builds are usually published during the noon/afternoon in the United States. I'm in Europe, where at that point it's usually night time, so I might be asleep, hence the delay in updating this sometimes, or maybe I just cannot do the thing at that moment. As I said, for stable builds, this should mostly be a non-issue, or at most a couple of hours without some of the functionality.
+
 The second method you can tell what state ExplorerPatcher is in is by watching the information printed in the debug console ("Properties" - "Advanced" - "Enable console"):
 
 * If ExplorerPatcher uses built-in symbol information, you will see some lines like the following printed at the very beginning of the console output:
