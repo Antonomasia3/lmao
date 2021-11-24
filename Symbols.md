@@ -6,7 +6,7 @@ Symbol files represent files which tell various things about an executable in a 
 ## What does ExplorerPatcher do with symbol files?
 As I said before, symbol files can offer valuable information about certain places in a program. It's easier to talk when referencing an example, so let's take the `Win`+`X` menu as an example.
 
-Windows still contains code that builds and manages the menu in a DLL called `twinui.pcshell.dll`. As it stands, the DLL does not contain any information to help identify where that code exactly is. Thus, its symbol file can be used to gather this information from. It contains information about where functions with names like `CLauncherTipContextMenu::GetMenuItemsAsync` and `CLauncherTipContextMenu::_ExecuteCommand` are located in the actual binary. Without symbols, identifying these places is much much harder, relying on techniques such as matching an expected pattern of how the instructions should look against the actual binary. This is more prone to breaking, but can sometimes be used to circumvent the need for symbols. In ExplorerPatcher, this is used in the code that enables the Windows 10 network flyout, for example.
+Windows still contains code that builds and manages the menu in a DLL called `twinui.pcshell.dll`. As it stands, the DLL does not contain any information to help identify where that code exactly is. Thus, its symbol file can be used to gather this information from. It contains information about where functions with names like `CLauncherTipContextMenu::GetMenuItemsAsync` and `CLauncherTipContextMenu::_ExecuteCommand` are located in the actual binary. Without symbols, identifying these places is much much harder, relying on techniques such as matching an expected pattern of how the instructions should look against the actual binary. This is more prone to breaking, but can sometimes be used to circumvent the need for symbols. In ExplorerPatcher, this is used in the code that enables the Windows 10 network flyout, for example, partly to avoid the need for introducing another dependency on symbol data.
 
 So, ExplorerPatcher uses functions already present in Windows' libraries to enable certain functionality. The way it identifies where those functions are is by using symbol files.
 
@@ -17,7 +17,7 @@ Currently, symbol data is required for the following functionality:
 * `twinui.pcshell.dll`: skinning and unskinning some context menus
 * `twinui.pcshell.dll`: press `Win`+`C` to open the clock flyout instead of Microsoft Teams
 * `StartDocked.dll`: open Start directly to "All apps"
-* `StartDocked.dll`: maximum numbers of apps to shown in the "Most used" section
+* `StartDocked.dll`: maximum numbers of apps to show in the "Most used" section
 
 ## How does ExplorerPatcher obtain the necessary symbol files?
 For binaries (EXEs, DLLs, CPLs etc) shipped with certain builds of the Windows operating systems, Microsoft makes symbols available for public download on their public service for debugging purposes. The information about where to download the symbol file associated with a certain binary is contained in the binary itself. Currently, Microsoft publishes symbols for these types of OS builds:
