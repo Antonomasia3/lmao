@@ -54,11 +54,19 @@ The second method you can tell what state ExplorerPatcher is in is by watching t
 ```
 [Symbols] Identified known "twinui.pcshell.dll" with hash 8b23b02962856e89b8d8a3956de1d76c.
 [Symbols] Identified known "StartDocked.dll" with hash b57bb94a48d2422de9a78c5fcba28f98.
+Loaded symbols.
+```
+
+* If ExplorerPatcher does not have built-in symbol information for the build you are running and it uses data cached in the registry and gathered on a previous run, you will see output similar to this:
+
+```
+Loaded symbols.
 ```
 
 * If ExplorerPatcher does not have built-in symbol information for the build you are running and it succeeds to gather symbol data, you will see output similar to this:
 
 ```
+Attempting to download symbol data; for now, the program may have limited functionality.
 [Symbols] Started "Download symbols" thread.
 [Symbols] Attempting to download symbols for unknown OS version 10.0.22000.348.
 [Symbols] Downloading to "C:\Users\root\AppData\Roaming\ExplorerPatcher\".
@@ -73,6 +81,7 @@ The second method you can tell what state ExplorerPatcher is in is by watching t
 * If ExplorerPatcher does not have built-in symbol information for the build you are running and it failed to gather symbol data (due to various reasons, like symbols not being available from Microsoft, the computer not being connected to the Internet etc), you will see output similar to this:
 
 ```
+Attempting to download symbol data; for now, the program may have limited functionality.
 [Symbols] Started "Download symbols" thread.
 [Symbols] Attempting to download symbols for unknown OS version 10.0.22000.348.
 [Symbols] Downloading to "C:\Users\root\AppData\Roaming\ExplorerPatcher\".
