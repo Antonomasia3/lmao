@@ -94,7 +94,7 @@ Attempting to download symbol data; for now, the program may have limited functi
 Not directly in ExplorerPatcher, but you can set up a system proxy and that should be picked up.
 
 ## Can you disable symbols download altogether?
-Although not recommended, you can use this option: "Properties" - "Advanced" - "Enable symbols download *".
+Although not recommended, you can uncheck this option: "Properties" - "Advanced" - "Enable symbols download *".
 
 ## Can the need for symbol data be overcome?
 Yes and no. We can discuss this more in a separate thread, but to keep it short here:
