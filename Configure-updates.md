@@ -16,6 +16,14 @@ Yes. Right click the taskbar, choose "Properties", then "Updates". There, you ca
 
 * "Do not check for updates". The application never checks for updates automatically. You can still manually check for updates and install them using the configuration UI.
 
+## I don't see any notifications
+
+Make sure notifications are turned on in Windows:
+
+![image](https://user-images.githubusercontent.com/6503598/145721238-5424a984-995c-4e71-becc-831c14558c8c.png)
+
+It works when themes are disabled as well.
+
 ## Can I manually check for updates?
 
 Yes. Right click taskbar, choose "Properties", then "Updates" and click "Check for updates". While the check is in progress, a notification like this will show:
