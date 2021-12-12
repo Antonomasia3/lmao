@@ -49,6 +49,8 @@ Also, note that you can only make at most 60 requests per hour to the pre-releas
 
 This is expected. The updater offers either releases only, either releases and pre-releases. When you tell it not to check for pre-releases, of course it offers you the latest release, which indeed may be older. In this scenario, I recommend turning off the updater until the release containing the changes you want is made available, and manually checking until then.
 
+See [this](https://github.com/valinet/ExplorerPatcher/discussions/540) as well.
+
 ## How does this work?
 
 As I said, the updater is very simple. Each `ep_setup.exe` file contains in its first few bytes the hash of the ExplorerPatcher file contained inside it. The updater determines the location of the most recent `ep_setup.exe` according to your settings (i.e. from releases only, or including pre-releases as well), it downloads the first few bytes of that, extracts the hash from there and compares it against the hash of the current ExplorerPatcher. If the two differ, then the remote file is offered as an update ready for installation. File versions are not involved, because there may be multiple *commits* with the same file version. More details are given [here](https://github.com/valinet/ExplorerPatcher/discussions/540#discussioncomment-1782287).
