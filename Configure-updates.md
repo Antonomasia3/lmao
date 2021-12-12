@@ -24,6 +24,10 @@ Make sure notifications are turned on in Windows:
 
 It works when themes are disabled as well.
 
+If you see the "Some settings are managed by your organization" message and you cannot turn those on, then you may have luck enabling them using the Group Policy editor:
+* Open Start, type "gpedit.msc".
+* In the window that opens, navigate to "User Configuration" > "Administrative Templates" > "Start Menu and Taskbar" > "Notifications". Double click "Turn off toast notifications", check "Not configured", then click "OK".
+
 ## Can I manually check for updates?
 
 Yes. Right click taskbar, choose "Properties", then "Updates" and click "Check for updates". While the check is in progress, a notification like this will show:
