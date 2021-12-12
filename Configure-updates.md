@@ -20,7 +20,7 @@ Yes. Right click the taskbar, choose "Properties", then "Updates". There, you ca
 
 Make sure notifications are turned on in Windows:
 
-![image](https://user-images.githubusercontent.com/6503598/145721238-5424a984-995c-4e71-becc-831c14558c8c.png)
+![image](https://user-images.githubusercontent.com/6503598/145721275-87a118c8-7fbb-4956-98ae-8083de44789d.png)
 
 It works when themes are disabled as well.
 
