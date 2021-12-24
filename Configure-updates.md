@@ -71,5 +71,5 @@ As I said, the updater is very simple. Each `ep_setup.exe` file contains in its 
 
 Sure. Configure the following two REG_SZ entries in `HKEY_CURRENT_USER\Software\ExplorerPatcher`:
 
-* `UpdateURL`: configures the main update URL, for releases only. It has to serve the executable file directly, similar to the default of: https://github.com/valinet/ExplorerPatcher/releases/latest
+* `UpdateURL`: configures the main update URL, for releases only. It has to serve the executable file directly, similar to the default of: https://github.com/valinet/ExplorerPatcher/releases/latest returns
 * `UpdateURLStaging`: configures the update URL for pre-releases and releases. It has to return JSON, similar to what the default of: https://api.github.com/repos/valinet/ExplorerPatcher/releases?per_page=1 returns
