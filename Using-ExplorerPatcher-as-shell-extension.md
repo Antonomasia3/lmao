@@ -8,7 +8,7 @@ So, for certain tweaks enabled by ExplorerPatcher to have effect in all applicat
 
 **!!! IMPORTANT !!! Injecting in all process is no mean feat: that means most processes running on you system have this piece of code running into it. While I strive to provide clean and bug free releases, mistakes or problems may appear from time to time, and this has the potential of making more troublesome than usual to recover the system if something goes wrong, so beware before deciding towards using this.**
 
-Currently, only a small subset of functionality is enabled by using ExplorerPatcher as a shall extension:
+Currently, only a small subset of functionality is enabled by using ExplorerPatcher as a shell extension:
 * Disable immersive context menus in Open/Save file dialogs
 * Disable the navigation bar in all Open/Save file dialogs
 * Hide the search bar
