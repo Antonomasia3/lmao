@@ -16,7 +16,7 @@ PLEASE refrain from opening duplicate issues. Consul the [Frequently Asked Quest
 
 ### Be verbose
 
-PLEASE describe things in detail. Refrain from generic titles (i.e. "does not work", "broken" #486, "thing <insert name> is buggy" #605) or useless 1-line descriptions (that sometimes just repeat the title, e.g. #621). The better documented the initial report, the easier it is to develop a fix for it. Badly formatted tickets just take time and attention from the real problems and add no value.
+PLEASE describe things in detail. Refrain from generic titles (i.e. "does not work", "broken" [#486](https://github.com/valinet/ExplorerPatcher/issues/486), "thing <insert name> is buggy" [#605](https://github.com/valinet/ExplorerPatcher/issues/605)) or useless 1-line descriptions (that sometimes just repeat the title, e.g. [#621](https://github.com/valinet/ExplorerPatcher/issues/621)). The better documented the initial report, the easier it is to develop a fix for it. Badly formatted tickets just take time and attention from the real problems and add no value.
 
 Useful things to include:
 
