@@ -1,3 +1,5 @@
+
+***
 I try my best to assist in solving most problems encountered regarding this application. To be able to better manage the time and resources available, I kindly ask to follow this set of guidelines when it comes to interacting with this repository.
 
 ## MUST READ rules regarding problem reporting
@@ -57,7 +59,7 @@ Those are welcome as well, use [Discussions](https://github.com/valinet/Explorer
 
 Please note that issues/discussions not adhering to these guidelines will most probably be ignored and may simply be closed/deleted without any explanation as a reply.
 
-Despite having the possibility to do so, I vouch not to edit or alter and third party reply or post on these forums.
+Despite having the possibility to do so, I vouch not to edit or alter any third party reply or post on these forums.
 
 ExplorerPatcher is provided AS-IS. I do my best to make it work under most circumstances, although I can mention in advance some configurations for which I won't provide active support and the reasons why:
 
