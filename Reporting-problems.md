@@ -10,6 +10,10 @@ Make sure the "problem" you are facing is actually a problem with ExplorerPatche
 
 Make sure the "problem" you are facing is indeed a "problem", not some feature/quirk you may simply have missed (sometimes because of skipping the advice of consulting the documentation, or at the very least the README). The documentation is provided to help you and also to avoid opening tickets for the most basic things in the world. PLEASE take a bit of time to get familiar with the program and read the provided docs.
 
+### Search past threads
+
+PLEASE refrain from opening duplicate issues. Consul the [Frequently Asked Questions](https://github.com/valinet/ExplorerPatcher/wiki/Frequently-asked-questions) and *use the search function in both Issues and Discussions*, and even Google before opening a thread, in order to make sure that the answer you are looking for hasn't been offered already. This, of course, saves you tons of time in the end, as a lot of the times the answer is already on these forums, so you can save the time you'd otherwise wait for a repost of the information, and also it saves other users and my time, as we do not have to answer again to a previously asked question. 
+
 ### Be verbose
 
 PLEASE describe things in detail. Refrain from generic titles (i.e. "does not work", "broken" #486, "thing <insert name> is buggy" #605) or useless 1-line descriptions (that sometimes just repeat the title, e.g. #621). The better documented the initial report, the easier it is to develop a fix for it. Badly formatted tickets just take time and attention from the real problems and add no value.
