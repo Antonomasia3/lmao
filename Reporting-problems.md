@@ -32,7 +32,7 @@ VERY useful things to include:
 Useless things to include:
 
 * Personal feelings, especially if not even remotely based on some fact
-* Windows Event Log output, besides the information about the crashing module. The information there is 99% of the times useless, being too generic. Instead, use [these](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps) to enable and collect full crash dumps.
+* Windows Event Log output, besides the information about the crashing module. The information there is 99% of the times useless, being too generic. Instead, use [these](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps) to enable and collect full crash dumps and submit that.
 
 ### Self fix
 ExplorerPatcher is a collaborative, open development project that relies on user contributions as well. For simple issues, like typos in the docs, small and relevant changes in the code etc, you can fork the repository, make the change there and submit a pull request for review directly. This is often preferable, if documented well, than asking for the change from me in a new thread.
