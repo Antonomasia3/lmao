@@ -12,7 +12,7 @@ Make sure the "problem" you are facing is indeed a "problem", not some feature/q
 
 ### Search past threads
 
-PLEASE refrain from opening duplicate issues. Consul the [Frequently Asked Questions](https://github.com/valinet/ExplorerPatcher/wiki/Frequently-asked-questions) and **use the search function in both Issues and Discussions**, and even Google before opening a thread, in order to make sure that the answer you are looking for hasn't been offered already. This, of course, saves you tons of time in the end, as a lot of the times the answer is already on these forums, so you can save the time you'd otherwise wait for a repost of the information, and also it saves other users and my time, as we do not have to answer again to a previously asked question. 
+PLEASE refrain from opening duplicate issues. Consult the [Frequently Asked Questions](https://github.com/valinet/ExplorerPatcher/wiki/Frequently-asked-questions) and **use the search function in both Issues and Discussions**, and even Google before opening a thread, in order to make sure that the answer you are looking for hasn't been offered already. This, of course, saves you tons of time in the end, as a lot of the times the answer is already on these forums, so you can save the time you'd otherwise wait for a repost of the information, and also it saves other users and my time, as we do not have to answer again to a previously asked question. 
 
 ### Be verbose
 
