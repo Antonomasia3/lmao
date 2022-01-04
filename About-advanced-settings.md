@@ -30,9 +30,21 @@ C:\Users\root\Documents\Visual Studio 2019\Projects\ExplorerPatcher\ExplorerPatc
  Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 Object dump complete.
 [Memcheck] Memory leak dump complete.
+[Memcheck] Objects in use:
+GDI     GDIp    USER    USERp
+281     295     157     180
 ```
 
 This is VERY useful to determine whether the application leaks memory. Basically, all the entries shown should come from controlled and known sources. It is of high importance especially for the application developers.
+
+## Double click the taskbar to toggle auto-hide
+
+This option is not working as intended and it is subject to being removed in the future. What it should to is toggle the taskbar's auto-hide status when the user double clicks it. At the moment (v41.0), it works like this:
+
+* Windows 10 taskbar: Works only on the primary taskbar, and only when the "Lock taskbar" option is set. Does not work when the taskbar is unlocked or on secondary taskbars.
+* Windows 11 taskbar: Works on both primary and secondary taskbars
+
+The reason it fails to work properly with the Windows 10 taskbar is because the old taskbar actually can do stuff in regard to user clicks on it (for example, its internal state machine transitions to a new state when the user presses the button, expecting an eventual drag). If I hook and inhibit this behaviors, you lose built-in features. If I do not inhibit it, the taskbar redirects the subsequent click (which would make a double click) to some other surface, and the hook is unable to capture it and figure out whether the user double clicked. The only way to reliably catch the double click is to install a global mouse hook, but I do not really fancy doing this just for this functionality. A working alternative that uses global mouse hooks is to use an AutoHotkey script. More details in [this thread](https://github.com/valinet/ExplorerPatcher/discussions/389), where the implementation of this feature is discussed.
 
 ## Show Windows build info on the desktop
 
