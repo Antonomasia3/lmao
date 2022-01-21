@@ -60,6 +60,10 @@ Enables supplementary hooks and code paths in ExplorerPatcher that mitigate issu
 
 Enables the legacy control used to display folders in File Explorer. This control is deprecated, but some people prefer it, especially because it integrates better with the classic theme, providing less padding. On the other hand, it has known issues with the dark theme, for example, as described [here](https://github.com/valinet/ExplorerPatcher/issues/316).
 
+## Hide the program settings item ("Properties") from the taskbar context menu
+
+By default, to access the program's configuration interface, you can right click the taskbar and choose "Properties" from the context menu. However, that can interfere with some people's muscle memory of the menu, and thus this advanced option is provided to hide the item. Beware that if you enable this, you may be left with no graphical way of accessing the configuration interface (you still have the option to enable a similar item to be shown in the Win+X menu - check out the "Other" section). If you are facing such a situation, click the Start button, type "run" (or press [Win]+[R]) and enter the following command: `rundll32 C:\Windows\dxgi.dll,ZZGUI` to open the configuration window manually.
+
 ## Enable symbols download
 
 You can use this to prevent the application from automatically downloading symbol data from Microsoft when symbol data is not already present locally or built right into the application itself. This is usually the case with new Windows Insider builds, or immediately after a new Windows stable build is released. More information about symbols is available [here](https://github.com/valinet/ExplorerPatcher/wiki/Symbols).
