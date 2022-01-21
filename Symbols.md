@@ -15,7 +15,6 @@ Currently, symbol data is required for the following functionality:
 
 * `twinui.pcshell.dll`: `Win`+`X` menu
 * `twinui.pcshell.dll`: skinning and unskinning some context menus
-* `twinui.pcshell.dll`: press `Win`+`C` to open the clock flyout instead of Microsoft Teams
 * `twinui.pcshell.dll`: legacy Windows 10 window switcher
 * `StartDocked.dll`: open Start directly to "All apps"
 * `StartDocked.dll`: maximum numbers of apps to show in the "Most used" section
