@@ -21,6 +21,6 @@ Take notice that, depending on your stored configuration data and the current st
 
 Similar to the others, go to "Properties", the "About" section and click "Restore default settings". The process is similar to importing settings, only that you don't have to locate a file - the data is backed into the program's memory.
 
-# About binary compatibility
+# About file compatibility between versions
 
 The format currently in use is in its initial stages of existence. Some minor tweaks might still be made, but generally, the way it ought to work is the one presented in this document. However, I cannot guarantee portability of exported settings files between versions, but I can say that the chance of it working is VERY likely. Compatibility breaking changes might happen only if absolutely necessary.
