@@ -17,9 +17,13 @@ Take notice that, depending on your stored configuration data and the current st
 * A request from "Microsoft(R) Register Server": this is the helper program that registers ExplorerPatcher as a shell extension on the computer, if you opted for the setting.
 * A request from "Windows Command Processor": this is the helper program that configures the service which restores not rounded corners in the Desktop Window Manager, if you opted for this setting.
 
+After performing this operation, I strongly recommend restarting File Explorer so that all the configuration data loads properly.
+
 # Restore default settings
 
 Similar to the others, go to "Properties", the "About" section and click "Restore default settings". The process is similar to importing settings, only that you don't have to locate a file - the data is backed into the program's memory.
+
+After performing this operation, I strongly recommend restarting File Explorer so that all the configuration data loads properly.
 
 # About file compatibility between versions
 
