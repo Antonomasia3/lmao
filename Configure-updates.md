@@ -59,6 +59,8 @@ Also, note that you can only make at most 60 requests per hour to the pre-releas
 
 ## I have enabled pre-releases, upgraded to the latest pre-release because I want feature x, and now I disabled them, waiting for the stable release. Yet, when checking for updates, I am offered the latest stable version, which is older than the pre-release I want.
 
+This behavior has been addressed and is no longer happening. Since ExplorerPatcher version 22000.434.41.12, the updater only suggests a new version if it has a bigger version number, no matter what channel you perform the check for updates against.
+
 This is expected. The updater offers either releases only, either releases and pre-releases. When you tell it not to check for pre-releases, of course it offers you the latest release, which indeed may be older. In this scenario, I recommend turning off the updater until the release containing the changes you want is made available, and manually checking until then.
 
 See [this](https://github.com/valinet/ExplorerPatcher/discussions/540) as well.
