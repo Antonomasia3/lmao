@@ -303,13 +303,17 @@ Determines where the Start menu will display on the screen, when invoked:
 
 ## Window switcher (Alt-Tab) style
 
-### Windows 11 switcher - full screeen, slow, tiny selection outline, slow opening times
+### Windows 11 switcher
+Full screeen, slow, tiny selection outline, slow opening times
 > ![image](https://user-images.githubusercontent.com/6503598/150660605-6637a142-5af4-475b-a966-20f509b5e8fb.png)
-### Windows 10 switcher - pretty good but lacks customization options
+### Windows 10 switcher
+Pretty good but lacks customization options
 > ![image](https://user-images.githubusercontent.com/6503598/150660619-450d0120-e9b8-400f-a3b0-6af122b68b56.png)
-### Windows NT switcher - the classic simple icon-based interface hosted by `csrss`
+### Windows NT switcher
+The classic simple icon-based interface hosted by `csrss`
 > ![image](https://user-images.githubusercontent.com/6503598/150660671-b095c7ee-b2cc-4ca9-888f-6ec03577b9f0.png)
-### Simple Window Switcher - my own take on implementing this kind of functionality
+### Simple Window Switcher
+My own take on implementing this kind of functionality
 > ![image](https://user-images.githubusercontent.com/6503598/150661107-52a2aa31-4c8d-45fd-abca-ca5b9ef0614b.png)
 
 Options for the Simple Window Switcher are described [here](https://github.com/valinet/ExplorerPatcher/wiki/Simple-Window-Switcher).
