@@ -310,7 +310,7 @@ Determines where the Start menu will display on the screen, when invoked:
 ### Windows NT switcher - the classic simple icon-based interface hosted by `csrss`
 > ![image](https://user-images.githubusercontent.com/6503598/150660671-b095c7ee-b2cc-4ca9-888f-6ec03577b9f0.png)
 ### Simple Window Switcher - my own take on implementing this kind of functionality
-> ![image](https://user-images.githubusercontent.com/6503598/150660679-5427f0c2-fdf2-44d2-b024-ab2cdab1f1cd.png)
+> ![image](https://user-images.githubusercontent.com/6503598/150661107-52a2aa31-4c8d-45fd-abca-ca5b9ef0614b.png)
 
 Options for the Simple Window Switcher are described [here](https://github.com/valinet/ExplorerPatcher/wiki/Simple-Window-Switcher).
 
