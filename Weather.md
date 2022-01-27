@@ -6,9 +6,9 @@ It was a long kind-of-forgotten, kind-of-secret wish of mine to do something abo
 
 ## What is it?
 
-The weather widget, when enabled, sits at the far right end of the task list, near the system tray, exactly where the "People" button would sit. Currently it offers 3 modes for presenting itself:
+The weather widget, when enabled, sits at the far right end of the task list, near the system tray, exactly where the "People" button would sit. Currently it offers 5 modes for presenting itself:
 
-**Icon and text**
+**Icon and description**
 
 Displays an icon indicating the current conditions, the temperature, plus a short description of the actual conditions.
 
@@ -25,6 +25,10 @@ Displays an icon indicating the current conditions, plus the temperature.
 Displays only an icon indicating the current conditions.
 
 ![image](https://user-images.githubusercontent.com/6503598/151263519-b8e19125-29ee-4783-b06c-d9a95ede1079.png)
+
+**Temperature only** and **Temperature and description**
+
+These two are exactly like their counterparts above, only that the icon is not displayed.
 
 When clicked, it expands into a panel near the corner of the screen, showing you a brief forecast for the coming days, plus more details about the current conditions, and a glance at what's coming up in the next hours. In fact, it's exactly the same weather widget that Google presents [in their search pages](https://www.google.com/search?q=weather), only this time it's integrated right into the taskbar, complete with Mica material support.
 
