@@ -19,6 +19,8 @@ The following prerequisites are necessary in order to compile this project:
 
 * Git - you can use [Git for Windows](https://git-scm.com/download/win), or git command via the Windows Subsystem for Linux.
 
+* nuget standalone or use Visual Studio
+
 Steps:
 
 1. Clone git repo along with all submodules
@@ -29,7 +31,13 @@ Steps:
 
    If "git" is not found as a command, type its full path, or have its folder added to PATH, or open Git command window in the respective folder if using Git for Windows.
 
-2. Compile funchook (type this in a PowerShell window):
+2. Restore nuget packages by running this in the folder where the solution file is:
+
+   ```
+   nuget restore ExplorerPatcher.sln
+   ```
+
+3. Compile funchook (type this in a PowerShell window):
 
    ```
    cd libs
@@ -41,7 +49,7 @@ Steps:
    cmake --build . --config Release
    ```
 
-3. Compile ExplorerPatcher
+4. Compile ExplorerPatcher
 
    * Double click the `ExplorerPatcher.sln` file to open the solution in Visual Studio. Choose Release and your processor architecture in the toolbar. Press `[Ctrl]`+`[Shift]`+`[B]` or choose "Build" - "Build solution" to compile.
 
@@ -63,7 +71,7 @@ Steps:
 
    The resulting libraries will be in the "build\Release" or "build\Debug" folder in the directory containing the solution file.
 
-4. To generate an `ep_setup.exe` file suitable for uploading to an ExplorerPatcher update server (which means inserting the MD5 hash of `ExplorerPatcher.amd64.dll` in the setup program), after the build is completed, run this in the `build` folder:
+5. To generate an `ep_setup.exe` file suitable for uploading to an ExplorerPatcher update server (which means inserting the MD5 hash of `ExplorerPatcher.amd64.dll` in the setup program), after the build is completed, run this in the `build` folder:
 
    ```
    ep_setup_patch.exe
