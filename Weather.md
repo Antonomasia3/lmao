@@ -80,3 +80,10 @@ No, just upgrade to the latest pre-release, for now. The installer takes care of
 No, just the good old Windows 10 one. There's no point in developing anything for the new one on this matter, as Microsoft will ship similar functionality in the upcoming feature update.
 
 Please, let's keep the discussion organized. This is the first iteration of this. Feedback will surely be taken into consideration, and we can ship a good implementation to everyone. A crop of new features will be added and existing aspects will be polished. For example, dark mode support for the widget is on the roadmap, as well as many other great new features. Now, I just a need to rest a bit, it was a pretty wild sprint during the past couple of days.
+
+## My desktop broke after enabling "Show Weather on the taskbar", how do I workaround this?
+
+1. Press Ctrl + Alt + Delete at the same time, open Task Manager, click File -> Run new task, and "Open" `regedit.exe` with administrative permissions.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People`
+3. Double-click "PeopleBand", then change its value data to `0`.
+4. Use Restart File Explorer (*); an alternative is to open Task Manager, click File -> Run new task, and "Open" `explorer.exe`.
