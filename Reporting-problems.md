@@ -32,7 +32,23 @@ VERY useful things to include:
 Useless things to include:
 
 * Personal feelings, especially if not even remotely based on some fact
-* Windows Event Log output, besides the information about the crashing module. The information there is 99% of the times useless, being too generic. Instead, use [these](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps) to enable and collect full crash dumps and submit that.
+* Windows Event Log output, besides the information about the crashing module. This thing IS OK:
+
+```
+Faulting application name: Explorer.EXE, version: 10.0.22000.527, time stamp: 0x59dc9944
+Faulting module name: dxgi.dll, version: 22000.469.41.16, time stamp: 0x61f204a2
+Exception code: 0xc0000005
+Fault offset: 0x00000000000130a4
+Faulting process id: 0x3d7c
+Faulting application start time: 0x01d823cf7e6477dd
+Faulting application path: C:\Windows\Explorer.EXE
+Faulting module path: C:\Windows\dxgi.dll
+Report Id: 2025b7b1-25c0-40b5-9bcf-ccc354c6b04f
+Faulting package full name: 
+Faulting package-relative application ID: 
+```
+
+The rest of the information there is 99% of the times useless, being too generic. Instead, use [these](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps) to enable and collect full crash dumps and submit that.
 
 ### Self fix
 ExplorerPatcher is a collaborative, open development project that relies on user contributions as well. For simple issues, like typos in the docs, small and relevant changes in the code etc, you can fork the repository, make the change there and submit a pull request for review directly. This is often preferable, if documented well, than asking for the change from me in a new thread.
