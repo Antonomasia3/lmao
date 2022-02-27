@@ -87,3 +87,19 @@ Please, let's keep the discussion organized. This is the first iteration of this
 2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People`
 3. Double-click "PeopleBand", then change its value data to `0`.
 4. Use Restart File Explorer (*); an alternative is to open Task Manager, click File -> Run new task, and "Open" `explorer.exe`.
+
+## I am facing a layout or some other issue with the content displayed by the weather widget. Is there a way to debug it?
+
+You can try enabling dev mode. Since the widget is just a WebView2 instance that displays a cropped Google search web page, you can use this setting to enable dev mode: go to `HKEY_CURRENT_USER\SOFTWARE\ExplorerPatcher` in the registry and create a DWORD value called `WeatherDevMode` and set its value to 1.
+
+This will enable dev mode in the weather widgets, which enables the following features that aid in debugging eventual issues:
+
+* Context menus work.
+* Browser developer tools (right click - "Inspect" or F12).
+* Other shortcut keys (like F5).
+* Script pop-ups (for `alert`, `confirm`, and `prompt` JavaScript functions).
+* The weather widget can be resized freely.
+* The weather widget can be moved around on the screen freely.
+* The WebView2 component fits and fills the entire widget area, instead of displaying a crop to the weather portion of the page.
+
+This can be used to debug various issues. For example, it was used to fix [#934](https://github.com/valinet/ExplorerPatcher/issues/934).
