@@ -90,9 +90,9 @@ Please, let's keep the discussion organized. This is the first iteration of this
 
 ## I am facing a layout or some other issue with the content displayed by the weather widget. Is there a way to debug it?
 
-You can try enabling dev mode. Since the widget is just a WebView2 instance that displays a cropped Google search web page, you can use this setting to enable dev mode: go to `HKEY_CURRENT_USER\SOFTWARE\ExplorerPatcher` in the registry and create a DWORD value called `WeatherDevMode` and set its value to 1.
+You can try enabling developer mode. Since the widget is just a WebView2 instance that displays a cropped Google search web page, you can use this setting to enable developer mode: go to `HKEY_CURRENT_USER\SOFTWARE\ExplorerPatcher` in the registry and create a DWORD value called `WeatherDevMode` and set its value to 1.
 
-This will enable dev mode in the weather widgets, which enables the following features that aid in debugging eventual issues:
+This will enable developer mode in the weather widgets, which enables the following features that aid in debugging eventual issues:
 
 * Context menus work.
 * Browser developer tools (right click - "Inspect" or F12).
