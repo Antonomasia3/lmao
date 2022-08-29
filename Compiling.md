@@ -27,6 +27,7 @@ Steps:
 
    ```
    git clone --recursive https://github.com/valinet/ExplorerPatcher
+   git submodule update --init --recursive
    ```
 
    If "git" is not found as a command, type its full path, or have its folder added to PATH, or open Git command window in the respective folder if using Git for Windows.
