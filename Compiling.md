@@ -17,7 +17,7 @@ The following prerequisites are necessary in order to compile this project:
 
 * [CMake](https://cmake.org/) - for easier usage, make sure to have it added to PATH during installation
 
-* Git - you can use [Git for Windows](https://git-scm.com/download/win), or git command via the Windows Subsystem for Linux.
+* Git - you can use [Git for Windows](https://git-scm.com/download/win), make sure it is added to your PATH
 
 * nuget standalone or use Visual Studio
 
