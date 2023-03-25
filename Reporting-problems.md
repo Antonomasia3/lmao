@@ -1,3 +1,7 @@
+Update: Discussions is closed, use Issues, post however you like.
+
+Old content below:
+
 I try my best to assist in solving most problems encountered regarding this application. To be able to better manage the time and resources available, I kindly ask to follow this set of guidelines when it comes to interacting with this repository.
 
 ## MUST READ rules regarding problem reporting
