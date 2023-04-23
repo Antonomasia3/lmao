@@ -42,6 +42,8 @@ When using the Windows 11 taskbar, the following locations are supported:
 * Bottom (default)
 * Top
 
+Note: This setting is not available when using the Windows 11 taskbar on Windows 11 build 22621 or higher (22H2).
+
 Although it may not be obvious, when using the Windows 10 taskbar, you don't have to actually use this. You can actually achieve much more by right clicking any taskbar and unticking "Lock the taskbar" or "Lock all taskbars". Then, simply drag any of the taskbars to dock it to whatever edge of the screen you'd like. You can also move it to other monitors - this allows you to move the main taskbar (the one that contains the system tray) to a secondary monitor. This was actually a bug in Windows 10 that was fixed in Windows 11, but ExplorerPatcher restored this functionality due to popular demand.
 
 Don't see additional taskbars on a multi-monitor configuration? Maybe you need to enable that: right click the main taskbar, choose "Taskbar settings", expand "Taskbar behaviors" and check "Show my taskbar on all displays".
