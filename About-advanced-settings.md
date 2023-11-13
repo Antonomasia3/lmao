@@ -68,12 +68,12 @@ By default, to access the program's configuration interface, you can right click
 
 You can use this to prevent the application from automatically downloading symbol data from Microsoft when symbol data is not already present locally or built right into the application itself. This is usually the case with new Windows Insider builds, or immediately after a new Windows stable build is released. More information about symbols is available [here](https://github.com/valinet/ExplorerPatcher/wiki/Symbols).
 
-## Do not hook Start menu from main Explorer process (permanently disabled)
-
-This does not have any effect and should be left disabled.
-
 ## Supplementary delay at logon
 
 Allows you to configure a custom delay at logon before the `ShellDesktopSwitchEvent` switch event is signaled. Signaling this event is what makes `winlogon` hide the login screen (the thing where it shows your user account's name and the text "Welcome") and display the desktop. By default, the application automatically determines the best delay to apply, but you can override that here.
 
 P.S. The delay at logon when using the `UndockingDisabled` registry entry instead of `explorer` is caused because nothing signals that event in Windows 11 when using the classic taskbar, for some reason only Microsoft *may* know.
+
+## Enable UI sounds in Explorer's XAML views
+
+Enables Xbox sounds in XAML views of processes covered by ExplorerPatcher such as Start Menu, Notification Center, Control Center, Windows 11 taskbar, and XAML elements in Windows 11 File Explorer. Please treat this feature as a novelty or proof of concept, as we will never mitigate quirks related to this feature.
